@@ -1,7 +1,10 @@
 #include <stdio.h>
-
-int main (void){
-	/* prints the given string */
+/**
+ * Description: main - prints the given string.
+ * Return: 0 if success.
+ */
+int main (void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
