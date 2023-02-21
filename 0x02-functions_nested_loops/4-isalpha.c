@@ -8,9 +8,9 @@
  *
  * Return: 1 is c if true else 0
 */
-int isalpha(int,c)
+int isalpha(int c)
 {
-	if ((c > 'A' && c < 'z') || (c > 'a' && c < 'z'))
+	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 	{
 		return (1);
 	}
