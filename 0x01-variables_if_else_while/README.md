@@ -19,10 +19,20 @@
     You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
     You can only use putchar twice in your code
     All your code should be in the main function<br/><br/>
-[7-print_tebahpla.c]7-print_tebahpla.c) - Write a program that prints the lowercase alphabet in reverse, followed by a new line.
+[7-print_tebahpla.c](7-print_tebahpla.c) - Write a program that prints the lowercase alphabet in reverse, followed by a new line.
     You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
     All your code should be in the main function
     You can only use putchar twice in your code<br/><br/>
+    
+[8-print_base16.c](8-print_base16.c) -Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.<br/><br/>
+[9-print_comb.c](9-print_comb.c) - Write a program that prints all possible combinations of single-digit numbers.<br/><br/>
+[100-print_comb3.c](100-print_comb3.c) - Write a program that prints all possible different combinations of two digits.<br/><br/>
+[101-print_comb4.c](101-print_comb4.c) - Write a program that prints all possible different combinations of three digits.<br/><br/>
+[102-print_comb5.c](102-print_comb5.c) - Write a program that prints all possible combinations of two two-digit numbers.
+
+
+
+
 
 
 
