@@ -3,14 +3,13 @@
 /**
  * main - Entry point
  *
- * Description: print value of n satus; positive, zero  or negative
+ * Description: print value of n satus; zero, positive or negative
  *
  * Return: Always 0 (Success)
-*/
+ */
 
 void positive_or_negative(int i)
 {
-	/* my if statement */
 	if (i > 0)
 	{
 		printf("%d is positive\n", i);
