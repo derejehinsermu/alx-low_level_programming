@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * positive_or_negative - print value of i satus; zero, positive or negative
  *
- * Description: print value of n satus; zero, positive or negative
+ * @i: - i is an integr value
  *
- * Return: Always 0 (Success)
 */
-void positive_or_negative(int i)
+void positive_or_negative(int i) /* my positive_or_negative function */
 {
-
+	/* my if statement */
 	if (i == 0)
 	{
 		printf("%d is zero\n", i);
