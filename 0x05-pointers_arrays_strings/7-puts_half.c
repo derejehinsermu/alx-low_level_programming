@@ -14,6 +14,6 @@ void puts_half(char *str)
 		len++;
 	/* Print the second half of the string */
 	for (i = (len - 1) / 2; str[i] != '\0'; i++)
-		putchar(str[i]);
-	putchar('\n');
+		_putchar(str[i]);
+	_putchar('\n');
 }
