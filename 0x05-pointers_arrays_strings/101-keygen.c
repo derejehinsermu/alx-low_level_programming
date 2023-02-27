@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	char password[9] = {0};
 	/* Seed RNG with time */
-	srand(time(NULL));
+	srand(time(0));
 	/* Generate random numbers */
 	for (i = 0; i < 8; i++)
 		password[i] = (rand() % 26) + 'a';
