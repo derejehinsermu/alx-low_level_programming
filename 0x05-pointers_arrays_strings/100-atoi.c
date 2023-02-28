@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
 	 /* initialize sign and result to 0 */
-	int sign = 0, result = 0;
+	unsigned int sign = 0, result = 0;
 	/* if character in string is a minus sign, increment sign */
 	while (*s)
 	{
