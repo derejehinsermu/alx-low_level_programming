@@ -1,7 +1,8 @@
 # 0x03. C - Debugging
 
 <p align="center">
-  <img src="https://i.postimg.cc/3RPkLVjx/af682f2cbb6d73fd4e42.jpg"
+  <img src="https://i.postimg.cc/3RPkLVjx/af682f2cbb6d73fd4e42.jpg">
+       <img src="https://i.postimg.cc/NFQbkDfM/image.png"
 </p>
 
 ## Resources
