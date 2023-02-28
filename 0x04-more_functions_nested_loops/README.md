@@ -1,4 +1,4 @@
-##0x04. C - More functions, more nested loops
+## 0x04. C - More functions, more nested loops
 <details>
 <summary><a href="./0-isupper.c">0. isupper</a></summary><br>
 
