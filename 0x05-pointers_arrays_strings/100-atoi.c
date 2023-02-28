@@ -7,29 +7,27 @@
  */
 int _atoi(char *s)
 {
-	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
-
-	while (*(s + count) != '\0')
+	 /* initialize sign and result to 0 */
+	int sign = 0, result = 0;
+	/* if character in string is a minus sign, increment sign */
+	while (*s)
 	{
-		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
-			break;
-
-		if (*(s + count) == '-')
-			pn *= -1;
-
-		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+		if (*s == '-')
+			sign++;
+		/* if character is between 0 and 9, multiply result by 10 */
+		if (*s >= '0' && *s <= '9')
 		{
-			if (size > 0)
-				m *= 10;
-			size++;
+			result *= 10;
+			/* add character to result */
+			result += *s - '0';
 		}
-		count++;
+		/* if result is not 0, break */
+		else if (result)
+			break;
+		s++;
 	}
-
-	for (i = count - size; i < count; i++)
-	{
-		oi = oi + ((*(s + i) - 48) * m);
-		m /= 10;
-	}
-	return (oi * pn);
+	/* if sign is odd, multiply result by -1 */
+	if (sign % 2)
+		result *= -1;
+	return (result);
 }
