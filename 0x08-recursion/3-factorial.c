@@ -1,4 +1,4 @@
-include "main"
+#include "main"
 
 /**
  * factorial - returns the factorial of a give number
