@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  *  main - a program tha multiplies two arguments it passed into it
@@ -10,17 +11,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int mul;
-
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		mul = (atoi(argv[1]) * atoi(argv[2]));
-		printf("%d\n", mul);
-	}
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
